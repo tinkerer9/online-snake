@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1D1E2C; 
+}
+
+.container {
+	margin: 0;
+    position: absolute;
+ 	top: 50%;
+    left: 50%;
+  	transform: translate(-50%, -50%);
+  	overflow: hidden;
+  	text-align: center;
+  	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.joinBtn {
+	background: #FF6B6B;
+	border: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	outline: none;
+	color: #fff;
+	font-size: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+	font-family: 'Golos Text', sans-serif;
+}
+
+.createBtn {
+	background: #4ECDC4;
+	border: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	outline: none;
+	color: #000;
+	font-size: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+	font-family: 'Golos Text', sans-serif;
+}

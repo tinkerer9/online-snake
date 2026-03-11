@@ -1,0 +1,23 @@
+{
+  "name": "futuristic_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "express": "^4.18.2",
+    "jquery": "^3.6.4",
+    "jsdom": "^21.1.0",
+    "ls": "^0.2.1",
+    "path": "^0.12.7",
+    "request-ip": "^3.3.0",
+    "serialport": "^10.0.0",
+    "socket.io": "^4.6.1",
+    "stack": "^0.1.0"
+  }
+}

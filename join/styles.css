@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1D1E2C; 
+}
+
+.container {
+	margin: 0;
+    position: absolute;
+ 	top: 50%;
+    left: 50%;
+  	transform: translate(-50%, -50%);
+  	overflow: hidden;
+  	text-align: center;
+  	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gameCodeInput {
+	text-transform: uppercase;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
+	background: none;
+	border-top: 3px solid #FF6B6B;
+	border-left: 3px solid #FF6B6B;
+	border-right: 3px solid #FF6B6B;
+	border-bottom: none;
+	outline: none;
+	color: #fff;
+	font-size: 35px;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+}
+.gameCodeInput::placeholder {
+	text-transform: none;
+  	color: #7F7F7F;
+  	opacity: 1;
+}
+.:-ms-input-placeholder {
+	text-transform: none;
+  	color: #7F7F7F;
+}
+
+.nameInput {
+	background: none;
+	border-top: 3px solid #FF6B6B;
+	border-left: 3px solid #FF6B6B;
+	border-right: 3px solid #FF6B6B;
+	border-bottom: none;
+	outline: none;
+	color: #fff;
+	font-size: 35px;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+}
+.nameInput::placeholder {
+	text-transform: none;
+  	color: #7F7F7F;
+  	opacity: 1;
+}
+.:-ms-input-placeholder {
+	text-transform: none;
+  	color: #7F7F7F;
+}
+
+.skinInput {
+	background: none;
+	border-top: 3px solid #FF6B6B;
+	border-left: 3px solid #FF6B6B;
+	border-right: 3px solid #FF6B6B;
+	border-bottom: none;
+	outline: none;
+	color: #fff;
+	font-size: 35px;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+}
+
+.joinBtn {
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	background: #FF6B6B;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-size: 35px;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+	cursor: pointer;
+}
+
+.notRedirectingText {
+	display: none;
+	color: #FF6B6B;
+	font-size: 35px;
+	text-align: center;
+	font-family: 'Golos Text', sans-serif;
+}
+
+.notRedirectingLink {
+	color: #FF6B6B;
+}

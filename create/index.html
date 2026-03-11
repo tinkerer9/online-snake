@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Snake</title>
+	<link rel='icon' type='image/x-icon' href='/images/logo.svg'>
+	<link rel='stylesheet' type='text/css' href='/create/styles.css'>
+	<script src='/socket.io/socket.io.js'></script>
+</head>
+<body>
+	<div class='container'>
+		<input class='nameInput' type='text' maxlength=20 onkeydown='return /[a-z0-9_-]/i.test(event.key)' placeholder='Username'>
+		<select class='skinInput'>
+  			<option value='' disabled selected hidden>Select a Skin</option>
+  			<option value='red'>Red</option>
+  			<option value='yellow'>Yellow</option>
+  			<option value='green'>Green</option>
+  			<option value='blue'>Blue</option>
+		</select>
+		<button class='createBtn'>Create Game</button>
+		<p class='notRedirectingText'>Not redirecting? <a class='notRedirectingLink'><u>Click me<u></a></p>
+	</div>
+
+	<script type='text/javascript' src='/create/script.js'></script>
+</body>
+</html>
